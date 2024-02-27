@@ -1,0 +1,46 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# IDEs and editors
+/.idea
+/target
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VS
+.vs/
+
+# IDE - VSCode
+.vscode/
+.nyc_output/
+.webpack/
+
+# misc
+/.sass-cache
+/connect.lock
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+*.css
+*.css.map
+/.eslintcache
+*.bak
+
+# System Files
+.DS_Store
+Thumbs.db
+.vs/wcp-api/v16/.suo
+.vs/slnx.sqlite
+.vs/slnx.sqlite-journal
+.vs/VSWorkspaceState.json
+
+# Serverless Stuff
+admin.env
+.env
+_meta
+.serverless/
